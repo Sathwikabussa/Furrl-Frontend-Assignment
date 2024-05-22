@@ -1,0 +1,48 @@
+.navbar-container {
+  position: relative;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.navbar-heading {
+  font-family: "Montserrat";
+  font-weight: normal;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .navbar-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.nav-icons-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 20px;
+  margin-right: 10px;
+}
+
+.nav-icon {
+  font-size: 32px;
+  color: black;
+}
+
+@media screen and (max-width: 240px) {
+  .nav-heading {
+    font-size: 16px;
+  }
+}
